@@ -144,3 +144,7 @@
 .menu-wrap .menu > div > div > ul > li > a:hover {
   color: var(--secondary-color);
 }
+
+.menu-wrap .menu > div > div > ul > li > a.selected {
+  color: var(--secondary-color);
+}
