@@ -15,6 +15,10 @@
   margin-bottom: 5px;
 }
 
+#content h3 {
+  font-size: 1.5rem;
+}
+
 #content p {
   font-size: 1.3rem;
   text-align: justify;
@@ -54,4 +58,30 @@
 .list > li {
   flex: 50%;
   line-height: 1.6;
+}
+
+#content .content-container p a {
+  text-decoration: none;
+  color: #2b580c;
+}
+
+#content .content-container .dishes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#content .content-container .dishes a {
+  flex: 50%;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+#content .content-container .dishes a div {
+  height: 250px;
+  background-color: aqua;
+}
+
+#content .content-container .dishes a div img {
+  max-width: 100%;
 }
