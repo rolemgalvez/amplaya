@@ -29,7 +29,7 @@
   flex-direction: column;
   /* align-items: center; */
   text-align: center;
-  height: 100%;
+  min-height: 100vh;
 }
 
 #footer {
@@ -41,4 +41,17 @@
   justify-content: center;
   text-align: center;
   color: #ffffff;
+}
+
+.list {
+  text-align: left;
+  font-size: 1.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0 0 20px;
+}
+
+.list > li {
+  flex: 50%;
+  line-height: 1.6;
 }
