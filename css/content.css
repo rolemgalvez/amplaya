@@ -4,6 +4,7 @@
   /* height: 100vh; */
   position: relative;
   padding: 20px 0;
+  /* width: 100vw; */
 }
 
 #content h1 {
@@ -68,6 +69,7 @@
 #content .content-container .dishes {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #content .content-container .dishes a {
@@ -75,13 +77,18 @@
   text-decoration: none;
   color: #ffffff;
   padding: 1rem;
+  align-self: flex-end;
+  display: inline-block;
+  min-width: 224px;
 }
 
-#content .content-container .dishes a div {
-  height: 250px;
+#content .content-container .dishes a .img-container {
+  /* height: 250px; */
+  max-width: 400px;
   background-color: aqua;
+  margin: auto;
 }
 
-#content .content-container .dishes a div img {
-  max-width: 100%;
+#content .content-container .dishes a .img-container img {
+  width: 100%;
 }
